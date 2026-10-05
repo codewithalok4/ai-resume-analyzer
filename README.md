@@ -1,16 +1,69 @@
-# React + Vite
+# 🤖 AI Resume Analyzer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An AI-powered full-stack web application that analyzes a resume against a job description and provides useful insights about the candidate's job match.
 
-Currently, two official plugins are available:
+The application uses Google Gemini AI to identify matching skills, missing skills, and practical suggestions for improving the resume.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 📄 Upload a resume in PDF format
+- 📝 Enter a target job description
+- 🤖 AI-powered resume analysis using Google Gemini
+- 📊 Resume match score
+- ✅ Identify matching skills
+- ❌ Identify missing skills
+- 💡 AI-generated resume improvement suggestions
+- ⏳ Loading state during AI analysis
+- ⚠️ Error handling for failed requests
+- 📱 Responsive user interface
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+### Frontend
+
+- React.js
+- Vite
+- JavaScript
+- HTML5
+- CSS3
+
+### Backend
+
+- Node.js
+- Express.js
+- Multer
+- pdf-parse
+- CORS
+
+### AI
+
+- Google Gemini API
+
+### Development Tools
+
+- VS Code
+- Git
+- GitHub
+
+---
+
+## 🏗️ Project Architecture
+
+```text
+AI Resume Analyzer
+│
+├── Frontend
+│   ├── React
+│   ├── Vite
+│   └── CSS
+│
+└── Backend
+    ├── Node.js
+    ├── Express.js
+    ├── PDF Parser
+    ├── Multer
+    └── Gemini API
